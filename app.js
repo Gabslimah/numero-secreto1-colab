@@ -10,6 +10,7 @@ function exibirTextoNaTela(tag, texto) {
     campo.innerHTML = texto;
     responsiveVoice.speak(texto, 'Brasilian Portuguese male', {rate:1.2});
 }
+
 function exibirMensagemInicial() {
     exibirTextoNaTela('h1', 'Jogo do número secreto');
     exibirTextoNaTela('p', 'Escolha um número entre 1 e 10');
